@@ -1,5 +1,5 @@
 # C++ Boilerplate
-[![Build Status](https://travis-ci.org/SonamYeshe/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
+[![Build Status](https://travis-ci.org/SonamYeshe/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/SonamYeshe/cpp-boilerplate)
 [![Coverage Status](https://coveralls.io/repos/github/SonamYeshe/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/SonamYeshe/cpp-boilerplate?branch=master)
 ---
 
