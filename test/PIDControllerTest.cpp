@@ -1,3 +1,4 @@
+// Copyright 2017 SonamYeshe
 /*
  * PIDControllerTest.cpp
  *
@@ -12,10 +13,9 @@
 // the upper limit in order to protect the motor.
 
 TEST(PIDTest, pass) {
-	PIDController PID;
-	double targetPoint = 100;
-	EXPECT_NEAR(2 * targetPoint, PID.computeNewVelocity(targetPoint, 0, 10),
-			0.5);
+  PIDController PID;
+  double targetPoint = 100;
+  EXPECT_NEAR(2 * targetPoint, PID.computeNewVelocity(targetPoint, 0, 10), 0.5);
 }
 
 // Give a negative input for velocity, assuming motor
@@ -23,8 +23,8 @@ TEST(PIDTest, pass) {
 // the upper limit in order to protect the motor.
 
 TEST(PIDTest2, pass) {
-	PIDController PID;
-	double targetPoint = (-100);
-	EXPECT_NEAR(2 * targetPoint, PID.computeNewVelocity(targetPoint, -10, 10),
-			0.5);
+  PIDController PID;
+  double targetPoint = (-100);
+  EXPECT_NEAR(2 * targetPoint, PID.computeNewVelocity(targetPoint, -10, 10),
+              0.5);
 }

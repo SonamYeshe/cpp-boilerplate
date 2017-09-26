@@ -1,9 +1,8 @@
-#include <iostream>
+// Copyright 2017 SonamYeshe
 #include <lib.hpp>
+#include <iostream>
 
-int main()
-{
-    dummy();
-    return 0;
-
+int main() {
+  dummy();
+  return 0;
 }
